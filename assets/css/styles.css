@@ -1,0 +1,110 @@
+/* 
+RESET - ADAPTED FROM MEYER RESET
+URL - http://meyerweb.com/eric/tools/css/reset/
+LICENSE - PUBLIC DOMAIN
+*/
+
+/* RESET
+----------------------------------------------------------------------------------------------------*/
+a, abbr, acronym, address, applet, article, aside, audio, 
+b, big, blockquote, body, caption, canvas, center, cite, code,
+dd, del, details, dfn, dialog, div, dl, dt, em, embed, 
+fieldset, figcaption, figure, form, footer, 
+header, hgroup, h1, h2, h3, h4, h5, h6, html, 
+i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,
+object, ol, output, p, pre, q, ruby, 
+s, samp, section, main, small, span, strike, strong, sub, summary, sup, 
+tt, table, tbody, textarea, tfoot, thead, time, tr, th, td,
+u, ul, var, video { 
+font-family: inherit; 
+font-size: 100%; 
+font-weight: inherit; 
+font-style: inherit; 
+vertical-align: baseline; 
+white-space: normal;
+margin: 0; 
+padding: 0; 
+border: 0; 
+outline: 0;
+background: transparent; 
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, main { 
+display: block; 
+}
+
+ol, ul { 
+list-style: none; 
+}
+blockquote, q {
+quotes: none; 
+}
+
+table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+}
+a {
+	text-decoration: none;
+}
+
+
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+*behavior: url(/scripts/boxsizing.htc);
+}
+  
+
+body {
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    line-height: 1.75;
+    color: #1d1e21;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: 'Chivo',Helvetica,Arial,sans-serif;
+    line-height: 1.2;
+}
+.heading2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+.heading3 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+.css-fkgcw9 {
+    padding: 16px;
+    background: rgb(245,247,249);
+}
+.paragraph {
+    margin: 16px 0px 32px;
+}
+.main ul, .main ol {
+    -webkit-padding-start: 40px;
+    -moz-padding-start: 40px;
+    -o-padding-start: 40px;
+    margin: 24px 0px;
+    padding: 0px 0px 0px 2em;
+}
+code {
+    border: 1px solid #ede7f3;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.9375em;
+    background: #fff;
+}
